@@ -18,8 +18,6 @@
     "Sidebar",
     "SidebarV2",
     "Support",
-    "SupportHeader",
-    "SupportTicket",
     "RecentSupport ",
     "CustomerInfo",
     "ContactInfo",
@@ -78,11 +76,6 @@
           "count": 1,
           "location": "below the header",
           "description": "In the summary, there is a graph displaying data related to each month."
-        },
-        "SupportTicket": {
-          "count": 1,
-          "location": "left side of top of the supportHeader",
-          "description": "just like a form input"
         },
         "RecentSupport": {
           "count": 1,
@@ -144,7 +137,9 @@
 
         "sizing_updates": [".."],
         "Author": {
-          "screen_and_layout_augmentations": [""]
+          "screen_and_layout_augmentations": [
+            " removed SupportTicket from  support"
+          ]
         }
       }
     }

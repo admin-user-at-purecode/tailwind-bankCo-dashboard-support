@@ -5,9 +5,7 @@ import ShippingAddress from "../../component/support/ShippingAddress";
 import ContactInfo from "../../component/support/ContactInfo";
 import CustomerInfo from "../../component/support/CustomerInfo";
 import RecentSupport from "../../component/support/RecentSupport";
-import SupportTicket from "../../component/forms/SupportTicket";
 import SupportHeader from "../../component/support/Header";
-
 function Support() {
   return (
     <main className="w-full xl:px-[48px] px-6 pb-6 xl:pb-[48px] sm:pt-[156px] pt-[100px] dark:bg-darkblack-700">
@@ -18,8 +16,6 @@ function Support() {
           <SupportHeader />
           <div className="rounded-lg bg-white dark:bg-darkblack-600 px-6 py-8">
             <div className="2xl:flex justify-between gap-12">
-              {/* Form  */}
-              <SupportTicket />
               {/* Tabs  */}
               <RecentSupport />
             </div>
