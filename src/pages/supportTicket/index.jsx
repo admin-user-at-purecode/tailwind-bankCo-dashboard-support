@@ -4,7 +4,6 @@ import PresentAddress from "../../component/support/PresentAddress";
 import ShippingAddress from "../../component/support/ShippingAddress";
 import ContactInfo from "../../component/support/ContactInfo";
 import CustomerInfo from "../../component/support/CustomerInfo";
-import RecentSupport from "../../component/support/RecentSupport";
 import SupportTicket from "../../component/forms/SupportTicket";
 import SupportHeader from "../../component/support/Header";
 
@@ -21,7 +20,6 @@ function Support() {
               {/* Form  */}
               <SupportTicket />
               {/* Tabs  */}
-              <RecentSupport />
             </div>
           </div>
         </div>

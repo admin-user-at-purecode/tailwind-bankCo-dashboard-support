@@ -20,7 +20,6 @@
     "Support",
     "SupportHeader",
     "SupportTicket",
-    "RecentSupport ",
     "CustomerInfo",
     "ContactInfo",
     "ShippingAddress ",
@@ -84,67 +83,12 @@
           "location": "left side of top of the supportHeader",
           "description": "just like a form input"
         },
-        "RecentSupport": {
-          "count": 1,
-          "location": "bottom of the support right side of the supportHeader",
-          "description": "it containe varrious type of support inforamtion inside include chat and rating image different type of varrious",
-          "children": {
-            "GreenBtnV2 ": {
-              "count": 1,
-              "location": "top the content recent support",
-              "description": "it is inbox of button "
-            },
-            "GreenBorderBtn": {
-              "count": 1,
-              "location": "it is beside of the inbox box",
-              "description": "it is represent of the complete process "
-            },
-            "RecentSupportItem": {
-              "count": 2,
-              "location": "it is the top of the recent top and second one is bottom of the revent top ",
-              "description": "it is represent of the chat processsm and rating process"
-            },
-            "WhiteBtn ": {
-              "count ": 1,
-              "location": "bottom of the recent support ",
-              "description": " inside button represent more information "
-            }
-          },
-          "CustomerInfo": {
-            "count": 1,
-            "location": "top at the right side of the support",
-            "description": "it containe image and just sending inbox"
-          },
-          "ContactInfo": {
-            "count": 1,
-            "location": "bottom of inbox and right side of the support",
-            "description": "it is showing contact informaation and email address"
-          },
-          "ShippingAddress": {
-            "count": 1,
-            "location": "it is bottom of the contact information",
-            "description": "it is showing that product reached to the delivery adddress"
-          },
-          "PresentAddress": {
-            "count": 1,
-            "location": "it is bottom of shipping address",
-            "description": "it is showing user present location"
-          },
-          "Note": {
-            "count": 1,
-            "location": "bottom of present location and right side of support",
-            "description": "it represent note point "
-          },
-          "Progressbar": {
-            "count": 1,
-            "location": "at last bottom of the  right side of support",
-            "description": "it represent progress of the profile and also verfie of profile"
-          }
-        },
 
         "sizing_updates": [".."],
         "Author": {
-          "screen_and_layout_augmentations": [""]
+          "screen_and_layout_augmentations": [
+            " remove RecentSupport from support"
+          ]
         }
       }
     }
