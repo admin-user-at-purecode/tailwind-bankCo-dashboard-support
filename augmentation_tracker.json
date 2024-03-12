@@ -21,7 +21,6 @@
     "SupportHeader",
     "SupportTicket",
     "RecentSupport ",
-    "CustomerInfo",
     "ContactInfo",
     "ShippingAddress ",
     "PresentAddress",
@@ -110,11 +109,7 @@
               "description": " inside button represent more information "
             }
           },
-          "CustomerInfo": {
-            "count": 1,
-            "location": "top at the right side of the support",
-            "description": "it containe image and just sending inbox"
-          },
+
           "ContactInfo": {
             "count": 1,
             "location": "bottom of inbox and right side of the support",
@@ -141,10 +136,11 @@
             "description": "it represent progress of the profile and also verfie of profile"
           }
         },
-
         "sizing_updates": [".."],
         "Author": {
-          "screen_and_layout_augmentations": [""]
+          "screen_and_layout_augmentations": [
+            " remove CustomerInfo form support"
+          ]
         }
       }
     }
