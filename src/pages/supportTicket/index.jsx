@@ -2,7 +2,6 @@ import Progressbar from "../../component/chart/Progressbar";
 import Note from "../../component/support/Note";
 import PresentAddress from "../../component/support/PresentAddress";
 import ShippingAddress from "../../component/support/ShippingAddress";
-import ContactInfo from "../../component/support/ContactInfo";
 import CustomerInfo from "../../component/support/CustomerInfo";
 import RecentSupport from "../../component/support/RecentSupport";
 import SupportTicket from "../../component/forms/SupportTicket";
@@ -30,8 +29,6 @@ function Support() {
           <div className="bg-white dark:bg-darkblack-600 dark:border-darkblack-400 p-8 divide-y divide-bgray-300 dark:divide-darkblack-400 rounded-lg">
             {/* Customer  */}
             <CustomerInfo />
-            {/* Contact Info  */}
-            <ContactInfo />
             {/* Shipping Address */}
             <ShippingAddress />
             {/* Present Address  */}
