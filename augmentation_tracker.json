@@ -23,7 +23,6 @@
     "RecentSupport ",
     "CustomerInfo",
     "ContactInfo",
-    "ShippingAddress ",
     "PresentAddress",
     "Note",
     "Progressbar ",
@@ -120,11 +119,6 @@
             "location": "bottom of inbox and right side of the support",
             "description": "it is showing contact informaation and email address"
           },
-          "ShippingAddress": {
-            "count": 1,
-            "location": "it is bottom of the contact information",
-            "description": "it is showing that product reached to the delivery adddress"
-          },
           "PresentAddress": {
             "count": 1,
             "location": "it is bottom of shipping address",
@@ -144,7 +138,9 @@
 
         "sizing_updates": [".."],
         "Author": {
-          "screen_and_layout_augmentations": [""]
+          "screen_and_layout_augmentations": [
+            "removed ShippingAddress from RecentSupport"
+          ]
         }
       }
     }

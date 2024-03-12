@@ -1,7 +1,6 @@
 import Progressbar from "../../component/chart/Progressbar";
 import Note from "../../component/support/Note";
 import PresentAddress from "../../component/support/PresentAddress";
-import ShippingAddress from "../../component/support/ShippingAddress";
 import ContactInfo from "../../component/support/ContactInfo";
 import CustomerInfo from "../../component/support/CustomerInfo";
 import RecentSupport from "../../component/support/RecentSupport";
@@ -32,8 +31,6 @@ function Support() {
             <CustomerInfo />
             {/* Contact Info  */}
             <ContactInfo />
-            {/* Shipping Address */}
-            <ShippingAddress />
             {/* Present Address  */}
             <PresentAddress />
           </div>
