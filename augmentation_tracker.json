@@ -26,7 +26,6 @@
     "ShippingAddress ",
     "PresentAddress",
     "Note",
-    "Progressbar ",
     "WhiteBtn",
     "RecentSupportItem",
     "GreenBtnV2",
@@ -175,16 +174,11 @@
           "count": 1,
           "location": "bottom of present location and right side of support",
           "description": "it represent note point "
-        },
-        "Progressbar": {
-          "count": 1,
-          "location": "at last bottom of the  right side of support",
-          "description": "it represent progress of the profile and also verfie of profile"
         }
       }
     }
   },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": []
+  "screen_and_layout_augmentations": ["removed Progressbar from support"]
 }
