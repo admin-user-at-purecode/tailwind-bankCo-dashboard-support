@@ -22,7 +22,6 @@
     "SupportTicket",
     "RecentSupport ",
     "CustomerInfo",
-    "ContactInfo",
     "ShippingAddress ",
     "PresentAddress",
     "Note",
@@ -115,11 +114,7 @@
             "location": "top at the right side of the support",
             "description": "it containe image and just sending inbox"
           },
-          "ContactInfo": {
-            "count": 1,
-            "location": "bottom of inbox and right side of the support",
-            "description": "it is showing contact informaation and email address"
-          },
+
           "ShippingAddress": {
             "count": 1,
             "location": "it is bottom of the contact information",
@@ -144,7 +139,9 @@
 
         "sizing_updates": [".."],
         "Author": {
-          "screen_and_layout_augmentations": [""]
+          "screen_and_layout_augmentations": [
+            "removed ContactInfo from RecentSupport"
+          ]
         }
       }
     }
