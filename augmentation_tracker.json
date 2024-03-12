@@ -25,7 +25,6 @@
     "ContactInfo",
     "ShippingAddress ",
     "PresentAddress",
-    "Note",
     "Progressbar ",
     "WhiteBtn",
     "RecentSupportItem",
@@ -170,11 +169,7 @@
             "location": "it is bottom of shipping address",
             "description": "it is showing user present location"
           },
-          "Note": {
-            "count": 1,
-            "location": "bottom of present location and right side of support",
-            "description": "it represent note point "
-          },
+
           "Progressbar": {
             "count": 1,
             "location": "at last bottom of the  right side of support",
@@ -184,7 +179,7 @@
 
         "sizing_updates": [".."],
         "Author": {
-          "screen_and_layout_augmentations": [""]
+          "screen_and_layout_augmentations": ["removed Note from RecentSupport"]
         }
       }
     }
