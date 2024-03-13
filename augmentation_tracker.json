@@ -180,5 +180,5 @@
   },
   "functionality": {},
   "sizing_updates": [],
-  "screen_and_layout_augmentations": ["remove CustomerInfo form support"]
+  "screen_and_layout_augmentations": ["removed CustomerInfo form support"]
 }
