@@ -77,11 +77,6 @@
           "location": "below the header",
           "description": "In the summary, there is a graph displaying data related to each month."
         },
-        "SupportTicket": {
-          "count": 1,
-          "location": "left side of top of the supportHeader",
-          "description": "just like a form input"
-        },
         "RecentSupport": {
           "count": 3,
           "location": "bottom of the support right side of the supportHeader",
